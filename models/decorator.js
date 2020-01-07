@@ -10,7 +10,7 @@ Decorator.prototype.addToStock = function(paint){
 
 Decorator.prototype.totalLitres = function(){
   total = 0;
-  for (paint of this.paintStock){
+  for (let  paint of this.paintStock){
     total += paint.litres
   }
   return total;

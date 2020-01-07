@@ -4,5 +4,8 @@ const Decorator = function(){
 
 };
 
+Decorator.prototype.addToStock = function(paint){
+  this.paintStock.push(paint);
+};
 
 module.exports = Decorator;
